@@ -1,0 +1,19 @@
+For both the datasets, at lower values of lambda, train error is low and the test error is high.
+This indicates overfitting.
+As the value of lambda increases, train error becomes high and the test error goes to lower values.
+
+The optimal point of interest is where the training and testing errors are almost same. This indicates that
+the model has learned quite well.
+
+This point where the training and testing errors are almost same is different for the two datasets:
+
+1. Sinusoid with P=5 => Point of optimality at lambda = 0.2
+1. Sinusoid with P=9 => Point of optimality at lambda = 0.4
+
+As we have seen from the Q5, P=5 is a better model for the sinusoid dataset than the P=9 model.
+(Here lambda=0 indicates their respective original models)
+
+Therefore, P=5 requires lower value of lambda to avoid overfitting than p=9.
+(Here the values of lambda introduces penalty term for the coefficients which tend to dominate the model.)
+Clearly, P=9 model coefficient will dominate more.
+

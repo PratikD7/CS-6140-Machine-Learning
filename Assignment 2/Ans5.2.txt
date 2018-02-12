@@ -1,0 +1,19 @@
+1.)
+The addition of new features reduces the RMSE for both the dataset upto a certain point and then
+it increases as shown in the plots.
+RMSE is lowest for P=3 for YATCH and p=5 for SINUSOID
+
+Yes, for both the datasets, training and validation RMSE follows a similar curve as shown in the plots.
+
+2.)
+We can always include more higher order polynomial features in the dataset. We can find the optimal
+value of polynomial by comparing the results and selecting the model with least RMSE.
+
+Cross-terms between features are quite useful when there is a relationship/dependency between
+two or more features in the dataset.
+Ex: Length, Breadth of a room are 2 of the features of a dataset housing to calculate the price of the house.
+Croos terms could include a new feature with (length*breadth) value (i.e area)
+
+This is certainly not an efficient approach because it takes a lot of time to find the optimal value of
+polynomial and prior knowledge about features for cross-terms.
+But once we get the above two optimal values, our model's performance drastically increases.

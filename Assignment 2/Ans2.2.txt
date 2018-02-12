@@ -1,0 +1,64 @@
+Ans 1)
+For housing dataset:
+Original starting weights = [0,0,....]
+Training Mean RMSE = 0.537, Training Mean SSE = 129.715
+Number of iterations to converge: 10
+
+New starting weights = [-3, -3, ....]
+Training Mean RMSE = 0.590, Training Mean SSE = 153.643
+Number of iterations to converge: 58
+
+New starting weights = [-1, -1, ....]
+Training Mean RMSE = 0.564, Training Mean SSE = 141.178
+Number of iterations to converge: 30
+
+New starting weights = [1, 1, ....]
+Training Mean RMSE = 0.586, Training Mean SSE = 149.208
+Number of iterations to converge: 37
+
+New starting weights = [10, 10, ....]
+Training Mean RMSE = 0.585, Training Mean SSE = 150.060
+Number of iterations to converge: 98
+
+
+According to the above results that were obtained by running Gradient Descent algorithm
+on the Housing dataset by selecting different weight vector values, it can be observed that
+the starting weights are can be a little sensitive to the performance of the linear regression model.
+
+However, the number of iterations needed for the model to converge is higher as we deviate away from
+the optimal weight vector values.
+
+
+Ans 2)
+NO, the tolerance parameter doesnt highly affect the results.
+Ex: original tolerance = [0.005, 0.001, 0.0001]
+    original results for housing : Mean RMSE = 0.537, Mean SSE = 129.715
+
+    new tolerance = [0.004,0.0008,0.0008]
+    new results = Mean RMSE = 0.537, Mean RMSE = 128.801 (Almost similar to the first case)
+
+    new tolerance = [0.05, 0.01, 0.001] (1/10th of the original values)
+    new results = Mean RMSE = 0.589, Mean SSE = 163.833 (Only a little changes in the values
+                                                         after taking one-tenth of the fraction of
+                                                           the original values)
+
+Ans 3)
+Original learning rates = [0.0004, 0.001, 0.0007]
+No of maximum epochs(iterations) for each dataset to converge :
+    Housing = 10
+    Yatch = 12
+    Concrete = 42
+
+New learning rates = [0.04, 0.1, 0.07] (10 times the original values)
+No of maximum epochs(iterations) for each dataset to converge :
+    Housing = 3
+    Yatch = 3
+    Concrete = 4
+But the errors are quite high in this case. (as compared to the original data)
+
+New learning rates = [0.00004, 0.0001, 0.00007] (1/10th of the original values)
+No of maximum epochs(iterations) for each dataset to converge :
+    Housing = 24
+    Yatch = 66
+    Concrete = 105
+Again in this case, the errors are qiote high.
