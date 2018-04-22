@@ -1,0 +1,10 @@
+Dataset         Optimal values of k according to NMI(GMM)         No of classes
+YEAST               7                                               9
+VOWELS              15                                              11
+DERMATOLOGY         15                                              6
+ECOLI               3                                               5
+GLASS               11                                              6
+SOYBEAN             16                                              15
+
+
+According to the above results, the optimal value of k is approximately around the number of classes for each dataset.

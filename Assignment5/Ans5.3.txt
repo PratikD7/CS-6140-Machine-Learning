@@ -1,0 +1,11 @@
+K Means is sensitive to initialization parameters.
+Finding optimal starting centroids for KMeans is a NP_Hard problem.
+So we need Heuristics for that. One simple heuristic is choosing random points  as centroids and then proceed the algorithm.
+The problem in this is the algo might get stuck in a local optimium.
+
+So, a better solution is to choose a set of random points, calculate kmeans clusters and evaluate its effectiveness.
+
+Just as Kmeans, GMM is also sensitive to initialization.
+In GMM, there is a guarantee to find local optimum.
+One heuristic is to run the kmeans algorithm and use that cluster as a initial paramters for GMM.
+So, if Kmeans initialization is optimal, then GMM might also be optimal.

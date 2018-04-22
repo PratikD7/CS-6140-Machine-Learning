@@ -1,0 +1,8 @@
+Dataset     Optimal k based on NMI      Corresponding SSE
+
+YEAST                   7               96.78887696929948
+VOWELS                  15              7577.220709799938
+DERMATOLOGY             15              194332.5550527609
+ECOLI                   3               59.29300887504342
+GLASS                   11              261.4171140628959
+SOYBEAN                 16              5727.84924251091

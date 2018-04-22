@@ -1,0 +1,24 @@
+I have used the 'elbow' method to determine the optimal value of K based on the SSE Criterion.
+I have referred to the plots of SSE vs K. Observing the graph, I have carefully predicted the value of optimal k for each dataset.
+
+Optimal value of K for each dataset:
+
+Dataset         k
+Dermatology     5
+Vowels          11
+Glass           5
+Ecoli           5
+Yeast           7
+Soybean         11
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+NMI based on optimal values of k for each dataset:
+
+Dataset         NMI Value
+Dermatology     0.0964441914400579
+Vowels          0.40747048854462
+Glass           0.31333035557573663
+Ecoli           0.5998140690068393
+Yeast           0.26363106896079064
+Soybean         0.6447242993657288

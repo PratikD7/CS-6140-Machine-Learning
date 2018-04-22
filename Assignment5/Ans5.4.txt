@@ -1,0 +1,18 @@
+For KMeans, the distance metric we used to calculate the SSE was the Euclidean distance. It makes sense to use Euclidean distance as the area of influence
+of a kmeans centroid is spherical.
+
+But for GMM the area of influence is not necessarily spherical, so the Euclidean distance might not work well.
+Kmeans is a special case of GMM that assumes
+i) Hard assignment of data points
+ii) Identity matrix as a covariance matrix
+
+If we use arbritary covariance matrix the exponent term will be, −(1/2)(x−μ).T (Σ−1)(x−μ).
+The above term is similar to the 'Mahalanobis' distance.
+It is defined as :
+    Dm(x) = sqrt ((x-u).T (S.inv) (x-u))
+    where x is set of observations, u is set of means and S is a covariance matrix.
+
+So the "'Mahalanobis' distance" is a better estimate for a distance matrix for GMM.
+
+Credits :- https://stats.stackexchange.com/questions/210439/which-metric-is-used-in-the-em-algorithm-for-gmm-training?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+           https://en.wikipedia.org/wiki/Mahalanobis_distance

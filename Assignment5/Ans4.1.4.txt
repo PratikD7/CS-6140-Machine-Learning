@@ -1,0 +1,10 @@
+SSE algorithm calculates the sum of squared errors.
+The errors are calculated as the Euclidean distance between a data point and a cluter centroid (mean).
+Therefore, the SSE assumes a spherical radius of influence.
+
+But in case of Gaussian Mixture models, however, the clusters are not necessarily spherical.
+Therefore, SSE might not always be the best way to look at the quality of clustering.
+
+On the other hand, the mutual information (MI) of two random variables is a measure of the mutual dependence between the two variables.
+Therefore, the NMI can be use dto calcuate the clustering quality of any geometry.
+

@@ -1,0 +1,7 @@
+DATASET         k(no of classes)    NMI
+YEAST           9                   0.24345656644533756
+VOWELS          11                  0.40747048854462
+DERMATOLOGY     15                  0.3952771736079072
+ECOLI           5                   0.5998140690068393
+GLASS           6                   0.3472836223223655
+SOYBEAN         15                  0.6476561464446289

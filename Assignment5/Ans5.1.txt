@@ -1,0 +1,11 @@
+As 'Sum of Squared Error' will not be a useful evaluation criteria in GMM clustering,
+we can compare the maximum value of Normalized Mutual Information values for each dataset across both the algorithms and
+then decide which clustering algorithm is the best.
+
+DATASET         K-Means NMI(Max)         GMM-NMI(Max)                Best Algo
+YEAST           0.1828971927414164       0.2631473617821389          GMM
+DERMATOLOGY     0.17702053279380092      0.3952771736079072          GMM
+ECOLI           0.49690184712478686      0.6599661849597633          GMM
+GLASS           0.33667139937454993      0.41057489221491605         GMM
+SOYBEAN         0.45477268827959205      0.6562149918615189          GMM
+VOWELS          0.23973339589115517      0.45696313202305044         GMM
