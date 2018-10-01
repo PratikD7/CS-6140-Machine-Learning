@@ -1,0 +1,89 @@
+1) '0' as positive:
+Best values of C: [0.03125]
+Training Accuracy : [0.99633795448600571]
+Testing Accuracy : [0.99554813578185863]
+Training Precision : [0.98918918918918919]
+Testing Precision : [0.98295454545454541]
+Training Recall : [0.97340425531914898]
+Testing Recall : [0.9719101123595506]
+
+2) '1' as positive:
+Best values of C: [2.0]
+Training Accuracy : [0.98535181794402305]
+Testing Accuracy : [0.96994991652754592]
+Training Precision : [0.93700787401574803]
+Testing Precision : [0.82989690721649489]
+Training Recall : [0.9177377892030848]
+Testing Recall : [0.88461538461538458]
+
+3) '2' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.99241433429244053]
+Testing Accuracy : [0.98386199220923765]
+Training Precision : [0.96799999999999997]
+Testing Precision : [0.94047619047619047]
+Training Recall : [0.95526315789473681]
+Testing Recall : [0.89265536723163841]
+
+4) '3' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.98535181794402305]
+Testing Accuracy : [0.97217584863661655]
+Training Precision : [0.94164456233421756]
+Testing Precision : [0.88439306358381498]
+Training Recall : [0.91259640102827766]
+Testing Recall : [0.83606557377049184]
+
+5) '4' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.99581480512686371]
+Testing Accuracy : [0.98441847523650527]
+Training Precision : [0.97932816537467704]
+Testing Precision : [0.91803278688524592]
+Training Recall : [0.97932816537467704]
+Testing Recall : [0.92817679558011046]
+
+6) '5' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.98718284070102014]
+Testing Accuracy : [0.98386199220923765]
+Training Precision : [0.95041322314049592]
+Testing Precision : [0.91803278688524592]
+Training Recall : [0.91755319148936165]
+Testing Recall : [0.92307692307692313]
+
+7) '6' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.99790740256343191]
+Testing Accuracy : [0.99276572064552027]
+Training Precision : [0.99730458221024254]
+Testing Precision : [0.97727272727272729]
+Training Recall : [0.98143236074270557]
+Testing Recall : [0.95027624309392267]
+
+8) '7' as Positive:
+Best values of C: [2.0]
+Training Accuracy : [0.9986921266021449]
+Testing Accuracy : [0.98664440734557601]
+Training Precision : [0.99481865284974091]
+Testing Precision : [0.95857988165680474]
+Training Recall : [0.99224806201550386]
+Testing Recall : [0.9050279329608939]
+
+9) '8' as Positive:
+Best values of C: [128.0]
+Training Accuracy : [0.95893277530735022]
+Testing Accuracy : [0.93544796883695047]
+Training Precision : [0.84735202492211836]
+Testing Precision : [0.73015873015873012]
+Training Recall : [0.71578947368421053]
+Testing Recall : [0.52873563218390807]
+
+10) '9' as Positive:
+Best values of C: [16.0]
+Training Accuracy : [0.9644258435783416]
+Testing Accuracy : [0.95158597662771283]
+Training Precision : [0.85964912280701755]
+Testing Precision : [0.80794701986754969]
+Training Recall : [0.76963350785340312]
+Testing Recall : [0.67777777777777781]

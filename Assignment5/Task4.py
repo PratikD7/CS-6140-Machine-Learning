@@ -20,13 +20,13 @@ def norm_pdf_multivariate(x, mu, sigma):
         try:
             norm_const = 1.0 / (math.pow((2 * math.pi), float(size) / 2) * math.pow(det, 1.0 / 2))
         except:
-            return 0.0
+            return 0.0 # Correction
         try:
             x_mu = numpy.matrix(x - mu)
             inv = numpy.linalg.inv(sigma)
             result = math.pow(math.e, -0.5 * (x_mu * inv * x_mu.T))
         except:
-            return 0.0
+            return 0.0 # Correction
         return norm_const * result
     else:
         raise NameError("The dimensions of the input don't match")

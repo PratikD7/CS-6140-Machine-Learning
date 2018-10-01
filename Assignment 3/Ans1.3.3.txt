@@ -1,0 +1,5 @@
+I used trial and error to choose the optimal values of 'number of iterations' and 'tolerance'.
+I compared my results to the Python's library of sklearn's logistic regression.
+I kept changing my parameter values till I got close enough to sklearn's accuracy.
+
+The graphs for various values are plotted in the pdf 1.3.3.pdf.

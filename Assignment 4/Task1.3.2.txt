@@ -1,0 +1,17 @@
+DUAL PERCEPTRON WITH RBF KERNEL on TwoSpirals Dataset
+
+The data is separable using Dual Perceptron with Guassian Kernel
+
+		Training Accuracy		Testing Accuracy		Training Precision			Testing Precision		Training Recall		Testing Recall
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						0.98989898989898994		1.0							0.98245614035087714		1.0					1.0
+		1.0						1.0						1.0							1.0						1.0					1.0
+		1.0						0.97979797979797978		1.0							1.0						1.0					0.94871794871794868
+
+Mean: 	1.0						0.99696969697			1.0							0.998245614035			1.0					0.994871794872

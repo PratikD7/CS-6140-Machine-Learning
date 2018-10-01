@@ -4,7 +4,7 @@ import math
 import copy
 import matplotlib.pyplot as plt
 from sklearn.metrics.cluster import normalized_mutual_info_score
-
+from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 # =============================================================================#
 # Load a CSV file
@@ -130,6 +130,7 @@ def main():
             print("K=", end='')
             print(k, end='')
             print(" NMI score = ", normalized_mutual_info_score(true_labels, pred_labels))
+            print(accuracy_score(true_labels,pred_labels))
 
             # calculate_NMI()
         print("-" * 50)
